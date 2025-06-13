@@ -7,7 +7,7 @@ entry_points:
     parameters:
       embedding_dim: {type: int, default: 128}
       batch_size: {type: int, default: 32}
-      epochs: {type: int, default: 3}
+      epochs: {type: int, default: 10}
       file_path: {type: str, default: "ner_dataset_split.pkl"}
       exp_name: {type: str, default: "NER_DeepLearning"}
     command: >
