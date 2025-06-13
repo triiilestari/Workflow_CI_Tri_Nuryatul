@@ -63,7 +63,7 @@ jobs:
       # Build Docker
       - name: Build Docker Model
         run: |
-          mlflow models build-docker --model-uri "runs:/$RUN_ID/model" --name "ner_sequence_triiilestari"
+          mlflow models build-docker --model-uri "runs:/$RUN_ID/model_sequence" --name "ner_sequence_triiilestari"
 
       # Login to Docker Hub
       - name: Log in to Docker Hub
