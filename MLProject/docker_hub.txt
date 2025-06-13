@@ -1,0 +1,2 @@
+Link Tautan Docker Hub
+https://hub.docker.com/repository/docker/triiilestari/ner_sequence_triiilestari/general
