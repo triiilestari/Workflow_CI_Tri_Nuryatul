@@ -75,7 +75,7 @@ jobs:
       # Tag the Docker image
       - name: Tag Docker Image
         run: |
-          docker tag cc ${{ secrets.DOCKER_HUB_USERNAME }}/ner_sequence_triiilestari:latest
+          docker tag ner_sequence_triiilestari ${{ secrets.DOCKER_HUB_USERNAME }}/ner_sequence_triiilestari:latest
 
       # Push Docker image to Docker Hub
       - name: Push Docker Image
