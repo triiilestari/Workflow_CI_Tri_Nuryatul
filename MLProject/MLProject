@@ -1,0 +1,18 @@
+name: ner_workflow_mlflow
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      embedding_dim: {type: int, default: 128}
+      batch_size: {type: int, default: 32}
+      epochs: {type: int, default: 3}
+      file_path: {type: str, default: "ner_dataset_split.pkl"}
+      exp_name: {type: str, default: "NER_DeepLearning"}
+    command: >
+      python modelling.py
+      --embedding_dim {embedding_dim}
+      --batch_size {batch_size}
+      --epochs {epochs}
+      --file_path {file_path}
