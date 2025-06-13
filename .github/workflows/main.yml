@@ -32,18 +32,25 @@ jobs:
           echo "RUNNING IN GITHUB CI"
           ls -al MLProject
 
+      # Install dependencies (incl. mlflow)
+      - name: Set up Miniconda
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          environment-file: MLProject/conda.yaml
+          auto-activate-base: false
+          activate-environment: smsml
+          use-mamba: true
+
       # Install Dependency
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install mlflow 
-
 
       # Run training python file
       - name: Run training script
         shell : bash -l {0}
         run: |
-          mlflow run MLProject --env-manager=local
+          mlflow run MLProject --env-manager=conda
 
       # mencari run_id terbaru dari direktori mlruns/0/ dan menyimpannya sebagai variabel lingkungan baru bernama RUN_ID.
       - name: Get latest MLflow run_id
