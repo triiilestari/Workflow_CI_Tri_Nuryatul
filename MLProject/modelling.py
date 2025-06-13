@@ -129,9 +129,10 @@ class train_ner():
             val_loss, val_acc = model.evaluate(X_test, Y_test)
             mlflow.log_metric("val_loss", val_loss)
             mlflow.log_metric("val_accuracy", val_acc)
+            model.save("ner_model_sequence.h5")
             mlflow.log_artifact("ner_model_sequence.h5")
             # Log artifacts
-            mlflow.keras.log_model(model, "model_squence")
+            mlflow.keras.log_model(model, "model_sequence")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
