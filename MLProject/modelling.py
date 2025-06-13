@@ -138,11 +138,12 @@ if __name__ == "__main__":
     parser.add_argument("--embedding_dim", type=int, default=128)
     parser.add_argument("--batch_size", type=int, default=32)
     parser.add_argument("--epochs", type=int, default=10)
+    parser.add_argument("--file_path", type=str, default="ner_dataset_split.pkl")
     args = parser.parse_args()
     embedding_dim = args.embedding_dim
     batch_size = args.batch_size
     epochs = args.epochs
     train = train_ner()
-    file_path = "ner_dataset_split.pkl"  # Change this to your CSV file path
+    file_path = args.file_path
     exp_name = "NER_DeepLearning"
     train.training_model_sequence(file_path, exp_name, embedding_dim, batch_size, epochs)
