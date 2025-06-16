@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow_CI_Tri_Nuryatul/Workflow_CI_Tri_Nuryatul/mlruns/0/fb5d558df27a43f3be16ad0fabc09f2c/artifacts
+end_time: 1750062630329
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fb5d558df27a43f3be16ad0fabc09f2c
+run_name: invincible-croc-509
+run_uuid: fb5d558df27a43f3be16ad0fabc09f2c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750062416291
+status: 3
+tags: []
+user_id: runner

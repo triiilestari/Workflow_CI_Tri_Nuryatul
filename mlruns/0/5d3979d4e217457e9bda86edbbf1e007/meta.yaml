@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow_CI_Tri_Nuryatul/Workflow_CI_Tri_Nuryatul/mlruns/0/5d3979d4e217457e9bda86edbbf1e007/artifacts
+end_time: 1750062078149
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5d3979d4e217457e9bda86edbbf1e007
+run_name: casual-skunk-771
+run_uuid: 5d3979d4e217457e9bda86edbbf1e007
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750062076902
+status: 3
+tags: []
+user_id: runner
