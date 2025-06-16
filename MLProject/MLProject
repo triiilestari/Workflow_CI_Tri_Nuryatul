@@ -11,7 +11,7 @@ entry_points:
       file_path: {type: str, default: "ner_dataset_DL.pkl"}
       exp_name: {type: str, default: "NER_DeepLearning"}
     command: >
-      python modelling.py
+      python modelling_tuning.py
       --embedding_dim {embedding_dim}
       --batch_size {batch_size}
       --epochs {epochs}
