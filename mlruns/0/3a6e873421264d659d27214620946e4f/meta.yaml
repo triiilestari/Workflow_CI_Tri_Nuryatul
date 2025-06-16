@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow_CI_Tri_Nuryatul/Workflow_CI_Tri_Nuryatul/mlruns/0/3a6e873421264d659d27214620946e4f/artifacts
+end_time: 1750059822705
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3a6e873421264d659d27214620946e4f
+run_name: melodic-moose-119
+run_uuid: 3a6e873421264d659d27214620946e4f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750059597310
+status: 3
+tags: []
+user_id: runner

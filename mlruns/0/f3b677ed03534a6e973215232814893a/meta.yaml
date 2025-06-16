@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow_CI_Tri_Nuryatul/Workflow_CI_Tri_Nuryatul/mlruns/0/f3b677ed03534a6e973215232814893a/artifacts
+end_time: 1750059595453
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f3b677ed03534a6e973215232814893a
+run_name: whimsical-pig-877
+run_uuid: f3b677ed03534a6e973215232814893a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750059445294
+status: 3
+tags: []
+user_id: runner
