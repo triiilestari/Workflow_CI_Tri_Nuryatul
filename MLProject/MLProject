@@ -16,3 +16,9 @@ entry_points:
       --batch_size {batch_size}
       --epochs {epochs}
       --file_path {file_path}
+
+  machinelearning:
+    parameters:
+      file_path: {type: str, default: "ner_dataset_split.pkl"}
+    command: >
+      python modelling.py --file_path {file_path}
