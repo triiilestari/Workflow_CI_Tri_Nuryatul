@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow_CI_Tri_Nuryatul/Workflow_CI_Tri_Nuryatul/mlruns/0/649aef87e38445c0a3f6f594a9097ff3/artifacts
+end_time: 1749845332473
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 649aef87e38445c0a3f6f594a9097ff3
+run_name: adaptable-shoat-403
+run_uuid: 649aef87e38445c0a3f6f594a9097ff3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749845078694
+status: 3
+tags: []
+user_id: runner

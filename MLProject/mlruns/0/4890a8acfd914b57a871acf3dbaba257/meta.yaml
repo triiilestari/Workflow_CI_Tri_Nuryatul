@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow_CI_Tri_Nuryatul/Workflow_CI_Tri_Nuryatul/mlruns/0/4890a8acfd914b57a871acf3dbaba257/artifacts
+end_time: 1750059595061
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4890a8acfd914b57a871acf3dbaba257
+run_name: enthused-lark-40
+run_uuid: 4890a8acfd914b57a871acf3dbaba257
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750059593746
+status: 3
+tags: []
+user_id: runner
