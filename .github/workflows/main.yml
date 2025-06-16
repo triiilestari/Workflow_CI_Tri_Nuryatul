@@ -47,11 +47,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install mlflow
 
-      # Run training python file
+      # Run training python file machine learning
       - name: Run training script
         shell : bash -l {0}
         run: |
-          mlflow run MLProject --env-manager=conda
+          mlflow run MLProject -e machinelearning --env-manager=conda
+
+      # Run training python file deeplearning
+      - name: Run training script
+        shell : bash -l {0}
+        run: |
+          mlflow run MLProject -e main --env-manager=conda
 
       # mencari run_id terbaru dari direktori mlruns/0/ dan menyimpannya sebagai variabel lingkungan baru bernama RUN_ID.
       - name: Get latest MLflow run_id
@@ -85,6 +91,7 @@ jobs:
       # Save models to GitHub Repository
       - name: Save mlruns to repo
         run: |
+          git status
           git config --global user.name ${{ secrets.username }}
           git config --global user.email ${{ secrets.email }}
           git add .
