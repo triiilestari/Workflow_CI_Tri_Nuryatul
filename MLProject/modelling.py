@@ -2,9 +2,7 @@ import numpy as np
 from datetime import datetime
 import argparse
 import pickle, os
-from sklearn_crfsuite import CRF
 import mlflow
-from sklearn_crfsuite.metrics import flat_classification_report
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report
 
